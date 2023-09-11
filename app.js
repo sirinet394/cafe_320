@@ -2,12 +2,12 @@ const app = Vue.createApp({
     data() {
         return {
             coffeeShops: [
-                { id: 1, name: 'Table 1' },
-                { id: 2, name: 'Table 2' },
-                { id: 3, name: 'Table 3' },
-                { id: 4, name: 'Table 4' },
-                { id: 5, name: 'Table 5' },
-                { id: 6, name: 'Table 6' },
+                { id: 1, name: 'Table 1',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image1.jpg?raw=true' },
+                { id: 2, name: 'Table 2',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image2.jpg?raw=true'},
+                { id: 3, name: 'Table 3',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image3.jpg?raw=true'},
+                { id: 4, name: 'Table 4',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image4.jpg?raw=true'},
+                { id: 5, name: 'Table 5',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image5.jpg?raw=true'},
+                { id: 6, name: 'Table 6',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image6.jpg?raw=true'},
                 // ... ร้านอื่นๆ
             ],
             currentShop: {},
@@ -48,14 +48,6 @@ const app = Vue.createApp({
             this.booking.tables = 1;
         }
     },
-    coffeeShops: [
-        { id: 1, name: 'Table 1', image: '/img/image1.jpg' },
-        { id: 2, name: 'Table 2', image: '/img/image2.jpg' },
-        { id: 3, name: 'Table 3', image: '/img/image3.jpg' },
-        { id: 4, name: 'Table 4', image: '/img/image4.jpg' },
-        { id: 5, name: 'Table 5', image: '/img/image5.jpg' },
-        { id: 6, name: 'Table 6', image: '/img/image6.jpg' },
-    ]
 });
 
 app.mount("#app");

@@ -19,10 +19,9 @@
         <div class="row">
             <div v-for="shop in coffeeShops" :key="shop.id" class="col-md-4">
                 <div class="card mb-4">
-                    <!-- ใส่รูปภาพที่นี่ -->
-                    <img :src="shop.image" alt="Coffee Shop Image" class="card-img-top img-fluid">
                     <div class="card-body">
                         <h4>{{ shop.name }}</h4>
+                        <img :src="shop.image" alt="Coffee Shop Image" class="card-img-top img-fluid">
                         <button @click="currentShop = shop" data-bs-toggle="modal" data-bs-target="#bookingModal" class="btn btn-primary">Book a table</button>
                     </div>
                 </div>
