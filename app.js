@@ -3,13 +3,12 @@ const app = Vue.createApp({
     data() {
         return {
             coffeeShops: [
-                 { id: 1, name: 'Table 1',image: 'https://static.wixstatic.com/media/e01c8b_02f099c0971c4de9970f95033faba008~mv2.jpg/v1/fill/w_600,h_800,al_c,q_85,enc_auto/e01c8b_02f099c0971c4de9970f95033faba008~mv2.jpg' },
-                { id: 2, name: 'Table 2',image: 'https://inwfile.com/s-k/sdrpit.jpg'},
-                { id: 3, name: 'Table 3',image: 'https://s.alicdn.com/@sc04/kf/HTB15SKpRFXXXXXbXXXXq6xXFXXXV.jpg_720x720q50.jpg'},
-                { id: 4, name: 'Table 4',image: 'https://sc02.alicdn.com/kf/HTB18UN1RFXXXXbMXFXXq6xXFXXXd/230636061/HTB18UN1RFXXXXbMXFXXq6xXFXXXd.jpg'},
-                { id: 5, name: 'Table 5',image: 'https://www.bangkokchair.com/imgadmins/detail_th/Detail_1679298253.jpg'},
-                { id: 6, name: 'Table 6',image: 'https://www.bangkokchair.com/imgadmins/detail_th/Detail_1657522916.jpg'},
-                // ... ร้านอื่นๆ
+               { id: 1, name: 'โต๊ะยาว',image: 'https://static.wixstatic.com/media/e01c8b_02f099c0971c4de9970f95033faba008~mv2.jpg/v1/fill/w_600,h_800,al_c,q_85,enc_auto/e01c8b_02f099c0971c4de9970f95033faba008~mv2.jpg' },
+                { id: 2, name: 'โต๊ะไพรเวท',image: 'https://inwfile.com/s-k/sdrpit.jpg'},
+                { id: 3, name: 'โต๊ะสำหรับ 2 คน',image: 'https://s.alicdn.com/@sc04/kf/HTB15SKpRFXXXXXbXXXXq6xXFXXXV.jpg_720x720q50.jpg'},
+                { id: 4, name: 'โซนครอบครัวสไตล์อบอุ่น',image: 'https://sc02.alicdn.com/kf/HTB18UN1RFXXXXbMXFXXq6xXFXXXd/230636061/HTB18UN1RFXXXXbMXFXXq6xXFXXXd.jpg'},
+                { id: 5, name: 'โซนครอบครัวสไตล์วินเทจ',image: 'https://www.bangkokchair.com/imgadmins/detail_th/Detail_1679298253.jpg'},
+                { id: 6, name: 'โซนคุยธุรกิจ',image: 'https://www.bangkokchair.com/imgadmins/detail_th/Detail_1657522916.jpg'},
             ],
             currentShop: {},
             booking: {
