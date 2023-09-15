@@ -1,19 +1,19 @@
 body {
-    background-color: rgb(40, 40, 40);
-    color: rgb(249, 104, 0);
+    background-color: darksalmon;
+    color: rgb(0, 0, 0);
 }
 
 .btn-custom {
-    background-color: #09f593; /* แทนด้วยสีที่คุณต้องการ */
-    color: #FFFFFF; /* แทนด้วยสีข้อความที่คุณต้องการ */
-    border: none; /* ถ้าคุณต้องการให้ปุ่มไม่มีขอบ */
+    background-color: #09f593;
+    color: #FFFFFF;
+    border: none;
 }
 
 .btn-custom:active,
 .btn-custom:focus,
 .btn-custom.active {
-    background-color: #0A2342; /* แทนด้วยสีที่คุณต้องการเมื่อปุ่มถูกคลิก */
-    border-color: #05121A; /* แทนด้วยสีเส้นขอบเมื่อปุ่มถูกคลิก */
+    background-color: #000000;
+    border-color: greenyellow;
 }
 
 
